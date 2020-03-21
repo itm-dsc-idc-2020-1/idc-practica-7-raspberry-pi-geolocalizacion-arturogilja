@@ -1,0 +1,18 @@
+/////////// Database ///////////////////////////7
+create table lugares (nombre text, id int, esquina int, latitud text, longitud text);
+insert into lugares values("Edificio O", 1, 1, "19.721894", "-101.185947");
+insert into lugares values("Edificio O", 1, 2, "19.721866", "-101.185751");
+insert into lugares values("Edificio O", 1, 3, "19.721812", "-101.185966");
+insert into lugares values("Edificio O", 1, 4, "19.721784", "-101.185764");
+
+
+///////////// Tabla de coordenadas del Edificio O y su contorno //////////
+latitudCont     LongitudCont            latitudEdif   LongitudEdif
+19.721974       -101.186145             19.721894     -101.185947
+19.722177       -101.185484             19.721866     -101.185751
+19.721529       -101.186559             19.721812     -101.185966
+19.721359       -101.185418             19.721784     -101.185764
+
+
+////////// Coordenadas del Raspberry ////////////////////
+19.721850, -101.185813
